@@ -1,0 +1,130 @@
+
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex; /* Use flexbox to arrange sidebar and content */
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        .sidebar {
+    width: 220px; /* Slightly increased to ensure enough space */
+    padding: 20px;
+    background-color: darkgreen;
+    color: white;
+    border-right: 1px solid #ccc;
+    position: fixed; /* Fixed positioning */
+    top: 0; /* Stick to the top */
+    bottom: 0; /* Stretch to the bottom */
+    overflow: hidden; /* Ensure no scrollbars appear */
+}
+
+        .content-container {
+            margin-left: 220px; /* Adjust for sidebar width */
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto; /* Allow content to scroll */
+        }
+
+        .dashboard-header {
+            background-color: transparent;
+            color: black;
+            padding: 10px 0;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        
+
+        .dashboard-menu {
+            list-style-type: none;
+            padding: 0;
+            margin-bottom: 20px; /* Adjusted margin */
+        }
+
+        .dashboard-menu li {
+            margin-bottom: 10px;
+        }
+
+        .dashboard-menu a {
+            display: block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: black;
+            background-color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+		.dashboard-menu .logout-link:hover {
+    background-color: red; /* Hover effect specifically for logout link */
+    color: white; /* Text color changes to white on hover */
+}
+
+        .dashboard-menu a:hover {
+            background-color: green;
+        }
+
+        .logout-link {
+            color: black;
+            background-color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+		
+	
+
+
+
+        .footer {
+    width: 200px;
+
+    color: #fff;
+    text-align: center;
+    padding: 1px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0; /* Align footer to the start of the sidebar */
+}
+
+
+        .barcode-image {
+            max-width: 100px;
+            max-height: 50px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 10px;
+            padding: 20px;
+            overflow-y: auto;
+            max-height: calc(100vh - 220px);
+        }
+
+        .grid-container table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 1px solid #ddd;
+            background-color: #fff;
+        }
+
+        .grid-container th, .grid-container td {
+            padding: 8px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        .grid-container th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        .grid-container td img {
+            max-width: 50px;
+            max-height: 50px;
+        }
+
+   

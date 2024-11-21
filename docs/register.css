@@ -1,0 +1,112 @@
+/* register.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    padding: 0 10px;
+    background: url("bglogin.png") center/cover;
+    position: relative; /* Added position relative for body */
+        overflow:hidden;
+}
+
+.wrapper {
+    background-color: yellowgreen;
+    padding: 15px; /* Reduce padding */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    border-radius: 8px;
+    max-width: 320px; /* Make the form smaller */
+    width: 100%; /* Ensure it stays responsive */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 15px; /* Reduce margin */
+}
+
+.input-field {
+    margin-bottom: 10px; /* Reduce margin */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 8px; /* Reduce padding */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px; /* Reduce font size */
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 8px; /* Reduce padding */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px; /* Reduce font size */
+    cursor: pointer;
+}
+
+.input-field input:focus {
+    border-bottom-color: white; /* Adjust focus color */
+}
+
+.input-field input::placeholder {
+    color: black; /* Placeholder text color */
+    opacity: 0.6; /* Placeholder opacity */
+    transition: opacity 0.3s ease; /* Smooth transition for placeholder opacity */
+}
+
+.input-field input:focus::placeholder,
+.input-field input:valid::placeholder {
+    opacity: 0; /* Hide placeholder on focus */
+}
+
+.wrapper a {
+    color: blue;
+    text-decoration: none;
+}
+
+.wrapper a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: yellowgreen; /* Changed background color to yellowgreen */
+    color: black;
+    font-weight: 600;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    color: black;
+    border-color: #fff;
+    background: green;
+}
+
+.register {
+    text-align: center;
+    margin-top: 30px;
+    color: black;
+}
