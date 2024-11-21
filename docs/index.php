@@ -222,7 +222,7 @@ $conn->close();
     <div class="sidebar">
         <div>
             <img src="ctulogo.png" alt="Logo" class="logo" style="width: 150px; height: 150px; border-radius: 50%; display: block; margin: 0 auto 20px auto;">
-            <p class="welcome-message">Welcome, Admin!</p>
+            <p class="welcome-message">Welcome, Admin GWAPO!</p>
 <ul class="dashboard-menu" style="list-style: none; padding: 0;">
     <li style="margin-bottom: 15px; position: relative;">
         <a href="#" onclick="toggleSubMenu(event)" style="text-decoration: none; color: #000; padding: 12px 20px; display: block; background-color: white; border-radius: 5px; text-align: center; margin-bottom: 5px;">Rewards</a>
