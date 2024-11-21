@@ -1,6 +1,0 @@
-2024-09-15 11:41:46 - Registration successful for student ID: 72106524
-2024-09-15 12:02:18 - Registration successful for student ID: 123321123
-2024-09-15 12:29:05 - Registration successful for student ID: 7210651
-2024-09-15 12:43:57 - Registration successful for student ID: 7210662
-2024-09-15 13:03:16 - Registration successful for student ID: 7210653
-2024-09-16 02:51:56 - Registration successful for student ID: 7210652
